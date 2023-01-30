@@ -6,20 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My todo list</title>
     
-    <script type="module" crossorigin src="./assets/index.b1e9b8a6.js"></script>
-    <link rel="stylesheet" href="./assets/index.d9f3df5d.css">
+    <script type="module" crossorigin src="./assets/index.10a1956e.js"></script>
+    <link rel="stylesheet" href="./assets/index.621971b2.css">
   </head>
   <body>
     <main class="todoapp">
       <form spellcheck="false" class="todoapp__form" action="">
         <input
-          class="todoapp__form__input todoapp__form__input--error"
+          class="todoapp__form__input"
           type="text"
           placeholder="Enter an activity..."
         />
         <button class="todoapp__form__button">+</button>
       </form>
-      <!-- <ul class="todoapp__list"></ul> -->
+      <ul class="todoapp__list"></ul>
     </main>
+
+    <template id="listitem">
+      <li class="todoapp__list__item %CHECKED%">
+        <span class="text">%TODO%</span>
+        <button class="delete">
+          <svg class="icon delete__icon">
+            <use href="/icons.svg#icon-delete"></use>
+          </svg>
+        </button>
+        <button class="check">
+          <svg class="icon check__icon">
+            <use href="/icons.svg#icon-check"></use>
+          </svg>
+        </button>
+      </li>
+    </template>
   </body>
 </html>
