@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "11111",
+      "todo": "Gras knippen",
+      "checked": false
+    },
+    {
+      "id": "22222",
+      "todo": "TV kijken",
+      "checked": false
+    },
+    {
+      "id": "33333",
+      "todo": "Niels plagen",
+      "checked": true
+    },
+    {
+      "id": "IpRZv1ISkmXtdraqR_B_b",
+      "todo": "test",
+      "checked": false
+    }
+  ]
+}
