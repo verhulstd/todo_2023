@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.3",
-    "nanoid": "^4.0.0"
+    "topbar": "^1.0.1"
   }
 }

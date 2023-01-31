@@ -1,6 +1,5 @@
 {
     "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#ff0000", // Change this color!
         "gitDecoration.ignoredResourceForeground": "#ff0000"
     }
 }

@@ -6,6 +6,11 @@
 *::after {
   box-sizing: border-box;
 }
+
+use,
+svg {
+  pointer-events: none;
+}
 // /*
 //     2. Remove default margin
 //   */

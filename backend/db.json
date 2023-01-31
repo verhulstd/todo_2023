@@ -1,24 +1,34 @@
 {
   "todos": [
     {
-      "id": "11111",
-      "todo": "Gras knippen",
-      "checked": false
+      "todo": "111",
+      "checked": false,
+      "id": 1
     },
     {
-      "id": "22222",
-      "todo": "TV kijken",
-      "checked": false
+      "todo": "333",
+      "checked": false,
+      "id": 3
     },
     {
-      "id": "33333",
-      "todo": "Niels plagen",
-      "checked": true
+      "todo": "456",
+      "checked": false,
+      "id": 4
     },
     {
-      "id": "IpRZv1ISkmXtdraqR_B_b",
-      "todo": "test",
-      "checked": false
+      "todo": "789",
+      "checked": false,
+      "id": 5
+    },
+    {
+      "todo": "789",
+      "checked": false,
+      "id": 6
+    },
+    {
+      "todo": "456",
+      "checked": false,
+      "id": 7
     }
   ]
 }
